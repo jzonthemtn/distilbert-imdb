@@ -1,0 +1,7 @@
+venv/
+exported-to-onnx/
+results/
+.ipynb_checkpoints/
+finetune-imdb/
+checkpoints/
+distilbert-imdb/
