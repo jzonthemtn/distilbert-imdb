@@ -1,6 +1,8 @@
 # Fine Tune
 
-This repository contains code to fine tune a classifier using the aclImdb_v1 dataset. The resulting model can then be converted to ONNX (and used by Apache OpenNLP).
+This repository contains code to fine tune a classifier using the imdb dataset. The resulting model can then be converted to ONNX (and used by Apache OpenNLP).
+
+For a trained model, see https://huggingface.co/jzonthemtn/distilbert-imdb.
 
 ## Requirements
 
