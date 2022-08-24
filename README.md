@@ -1,4 +1,4 @@
-# Fine Tune
+# distilbert-imdb
 
 This repository contains code to fine tune a classifier using the imdb dataset. The resulting model can then be converted to ONNX (and used by Apache OpenNLP).
 
