@@ -5,3 +5,4 @@ results/
 finetune-imdb/
 checkpoints/
 distilbert-imdb/
+tmp_trainer/

@@ -4,7 +4,7 @@ model = AutoModelForSequenceClassification.from_pretrained("distilbert-imdb/")
 
 from datasets import load_dataset
 imdb = load_dataset("imdb")
-small_test_dataset = imdb["test"].shuffle(seed=42).select([i for i in list(range(300))])
+small_test_dataset = imdb["test"].shuffle(seed=42) #.select([i for i in list(range(300))])
 
 def preprocess_function(examples):
    return tokenizer(examples["text"], truncation=True)

@@ -14,3 +14,10 @@ python3 -m pip install transformers onnxruntime torch sklearn
 ## Convert to ONNX
 
 `python3 -m transformers.onnx --model=local-pt-checkpoint/ --feature sequence-classification exported-to-onnx`
+
+## Evaluation
+
+| Version      | Evaluation |
+| ----------- | ----------- |
+| 1      | {'eval_loss': 0.21822933852672577, 'eval_accuracy': 0.93224, 'eval_f1': 0.9321042084168337, 'eval_runtime': 225.0407, 'eval_samples_per_second': 111.091, 'eval_steps_per_second': 13.886}      |
+
