@@ -17,8 +17,8 @@ python3 -m pip install transformers onnxruntime torch sklearn
 
 ## Evaluation
 
-| Epochs      | 1 |
-| ----------- | ----------- |
-| 1      | {'eval_loss': 0.21822933852672577, 'eval_accuracy': 0.93224, 'eval_f1': 0.9321042084168337, 'eval_runtime': 225.0407, 'eval_samples_per_second': 111.091, 'eval_steps_per_second': 13.886}      |
-| 5 | {'eval_loss': 0.3719911277294159, 'eval_accuracy': 0.93136, 'eval_f1': 0.9316987740805606, 'eval_runtime': 235.7789, 'eval_samples_per_second': 106.032, 'eval_steps_per_second': 6.629, 'epoch': 5.0} |
+| Epochs      | Training | Evaluation |
+| ----------- | ---------- | ----------- |
+| 1      |     | {'eval_loss': 0.21822933852672577, 'eval_accuracy': 0.93224, 'eval_f1': 0.9321042084168337, 'eval_runtime': 225.0407, 'eval_samples_per_second': 111.091, 'eval_steps_per_second': 13.886}      |
+| 5 | {'train_runtime': 3537.2631, 'train_samples_per_second': 35.338, 'train_steps_per_second': 2.209, 'train_loss': 0.11836099642938479, 'epoch': 5.0}     | {'eval_loss': 0.3719911277294159, 'eval_accuracy': 0.93136, 'eval_f1': 0.9316987740805606, 'eval_runtime': 235.7789, 'eval_samples_per_second': 106.032, 'eval_steps_per_second': 6.629, 'epoch': 5.0} |
 
