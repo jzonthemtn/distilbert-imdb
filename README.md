@@ -7,12 +7,9 @@ For a trained model, see https://huggingface.co/jzonthemtn/distilbert-imdb.
 ## Requirements
 
 ```
+python3 -m pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 python3 -m pip install transformers onnxruntime torch sklearn
 ```
-
-## Train
-
-`python3 train.py`
 
 ## Convert to ONNX
 
