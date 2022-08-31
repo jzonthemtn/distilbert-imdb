@@ -15,7 +15,7 @@ python3 -m pip install transformers onnxruntime torch sklearn
 
 `python3 -m transformers.onnx --model=local-pt-checkpoint/ --feature sequence-classification exported-to-onnx`
 
-## Evaluation
+## Training and Evaluation Summaries
 
 | Epochs      | Training | Evaluation |
 | ----------- | ---------- | ----------- |
