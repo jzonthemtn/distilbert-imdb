@@ -51,7 +51,7 @@ graphviz==0.8.4
 grpcio==1.32.0
 h5py==2.10.0
 html5lib==1.0.1
-httplib2==0.14.0
+httplib2==0.19.0
 huggingface-hub==0.9.1
 idna==2.8
 importlib-metadata==4.11.1
