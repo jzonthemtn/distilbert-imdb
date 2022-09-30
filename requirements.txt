@@ -75,7 +75,7 @@ multiprocess==0.70.13
 mxnet==1.7.0.post2
 netifaces==0.10.4
 networkx==2.6.3
-numpy==1.19.5
+numpy==1.22.0
 oauthlib==3.1.0
 olefile==0.46
 onnx==1.11.0
