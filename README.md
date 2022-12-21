@@ -20,7 +20,7 @@ python3 train.py
 ## Convert the Trained Model to ONNX
 
 ```
-python3 -m transformers.onnx --model=local-pt-checkpoint/ --feature sequence-classification exported-to-onnx
+python3 -m transformers.onnx --model=checkpoints/checkpoint-376/ --feature sequence-classification exported-to-onnx
 ```
 
 ## Training and Evaluation Summaries
