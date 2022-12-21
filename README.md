@@ -11,9 +11,17 @@ python3 -m pip install torch torchvision torchaudio --extra-index-url https://do
 python3 -m pip install transformers onnxruntime torch sklearn datasets
 ```
 
-## Convert to ONNX
+## Train a Model
 
-`python3 -m transformers.onnx --model=local-pt-checkpoint/ --feature sequence-classification exported-to-onnx`
+```
+python3 train.py
+```
+
+## Convert the Trained Model to ONNX
+
+```
+python3 -m transformers.onnx --model=local-pt-checkpoint/ --feature sequence-classification exported-to-onnx
+```
 
 ## Training and Evaluation Summaries
 
