@@ -4,6 +4,8 @@ This repository contains code to fine tune a classifier using the imdb dataset. 
 
 For a trained model, see https://huggingface.co/jzonthemtn/distilbert-imdb.
 
+For a walkthrough, see the blog post at https://medium.com/@jzonthemtn/hugging-face-transformers-now-enabled-in-apache-opennlp-by-onnx-runtime-f3ff923c7ff8.
+
 ## Requirements
 
 ```
